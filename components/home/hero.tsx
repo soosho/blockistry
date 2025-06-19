@@ -1,6 +1,6 @@
 "use client";
 
-import { Star, ChevronRight, ArrowRight, Sparkles, Zap } from "lucide-react";
+import { Star, ChevronRight, ArrowRight, Play } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -17,7 +17,7 @@ export default function Hero() {
           {/* Badge */}
           <div className="mb-8 animate-fade-in">
             <div className="inline-flex items-center px-6 py-3 rounded-full glass-purple text-purple-300 text-sm font-medium animate-pulse-purple border border-purple-500/30">
-              <Sparkles className="w-4 h-4 mr-2 text-purple-400 animate-spin" style={{ animationDuration: '3s' }} />
+              <Play className="w-4 h-4 mr-2 text-purple-400 animate-spin" style={{ animationDuration: '3s' }} />
               Trusted by Fortune 5 Companies
               <Star className="w-4 h-4 ml-2 text-purple-400" />
             </div>

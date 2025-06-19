@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, Globe, Github, Send, MapPin, Phone } from "lucide-react";
+import { Mail, Globe, Github, Send } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -18,7 +18,7 @@ export default function Contact() {
             Ready to Transform Your Business?
           </h2>
           <p className="text-xl sm:text-2xl text-gray-300 max-w-4xl mx-auto font-light leading-relaxed">
-            Let's discuss how{" "}
+            Let&apos;s discuss how{" "}
             <span className="text-purple-300 font-medium">blockchain technology</span> can revolutionize your operations
           </p>
         </div>
@@ -29,7 +29,7 @@ export default function Contact() {
             <div>
               <h3 className="text-3xl font-bold text-white mb-8">Get in Touch</h3>
               <p className="text-gray-300 text-lg mb-8">
-                Ready to start your blockchain journey? We're here to help you every step of the way.
+                Ready to start your blockchain journey? We&apos;re here to help you every step of the way.
               </p>
             </div>
             
@@ -112,7 +112,7 @@ export default function Contact() {
             <div className="relative bg-gradient-to-br from-gray-900/80 via-gray-800/80 to-gray-900/80 backdrop-blur-xl border border-gray-700/50 rounded-3xl p-8 transition-all duration-500 hover:border-purple-500/30 hover:shadow-2xl hover:shadow-purple-500/20">
               <div className="mb-8">
                 <h3 className="text-2xl font-bold text-white mb-2">Send us a Message</h3>
-                <p className="text-gray-300">Tell us about your project and we'll get back to you within 24 hours.</p>
+                <p className="text-gray-300">Tell us about your project and we&apos;ll get back to you within 24 hours.</p>
               </div>
               
               <form className="space-y-6">
